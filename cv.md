@@ -4,7 +4,7 @@
 * E-mail: mozheykosn@gmail.com
 * Phone: +375(29)2973977
 * Telegram: mozheyko_so
-* LinkedIn: [https://by.linkedin.com/in/snezhana-mozheyko-a72183131/ru] (mozheyko.snezhana)
+* LinkedIn: [https://by.linkedin.com/in/snezhana-mozheyko-a72183131/ru](mozheyko.snezhana)
 ## Summary
 I have been working as a digital marketer for 4 years in marketing agency. Later I decided to study web development, firstly Java Script. I am very motivated to gain experience and become a good specialist.
 
