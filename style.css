@@ -1,4 +1,4 @@
-	html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, section {
+	html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, section, a {
 		margin: 0;
 		padding: 0;
 		border: 0;
@@ -28,12 +28,7 @@
 		content: none;
 	}
 
-	table {
-		border-collapse: collapse;
-		border-spacing: 0;
-	}
-
-	body {
+		body {
 		-webkit-text-size-adjust: none;
 	}
 
@@ -52,16 +47,6 @@
 		background: #fff;
 	}
 
-		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
-			-moz-animation: none !important;
-			-webkit-animation: none !important;
-			-ms-animation: none !important;
-			animation: none !important;
-			-moz-transition: none !important;
-			-webkit-transition: none !important;
-			-ms-transition: none !important;
-			transition: none !important;
-		}
 
 	body, input, select, textarea {
 		color: #a2a2a2;
@@ -72,29 +57,10 @@
 	}
 
 	a {
-		-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
-		color: #49bf9d;
+		color: #787878;
 		text-decoration: none;
 	}
 
-		a:hover {
-			border-bottom-color: transparent;
-			color: #49bf9d !important;
-			text-decoration: none;
-		}
-
-	strong, b {
-		color: #787878;
-		font-weight: 400;
-	}
-
-	em, i {
-		font-style: italic;
-	}
 
 	p {
 		margin: 0 0 2em 0;
@@ -107,12 +73,7 @@
 		margin: 0 0 1em 0;
 	}
 
-		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: inherit;
-			text-decoration: none;
-		}
-
-	h1 {
+		h1 {
 		font-size: 2em;
 		line-height: 1.5em;
 	}
@@ -181,19 +142,7 @@
 		padding: 0.25em 0.65em;
 	}
 
-	pre {
-		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
-		font-size: 0.9em;
-		margin: 0 0 2em 0;
-	}
-
-		pre code {
-			display: block;
-			line-height: 1.75em;
-			padding: 1em 1.5em;
-			overflow-x: auto;
-		}
+	
 
 	.align-left {
 		text-align: left;
