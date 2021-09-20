@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>CV</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="style.css" />
+			</head>
+	<body id="top">
+
+		
+			<header id="header">
+				<a href="#" class="image ava"><img src="images/ava.jpg" alt="Снежана Можейко" /></a>
+				<h1>Snezhana Mozheyko</h1>
+                <p>Junior Frontend Developer</p>
+			</header>
+
+					<div id="main">
+
+					<section id="one">
+						<header class="major">
+							<h2>About Myself</h2>
+						</header>
+						<p>I have been working as a digital marketer for 4 years in marketing agency. Later I decided to study web development, firstly Java Script. I am very motivated to gain experience and become a good specialist.
+
+                            I learn quickly, I can work in a team and always have many friends at work, I try to be friendly and bring a good mood. I am eager to learn, I enjoy overcoming challenges, and I have a genuine interest in business development and making projects successful.</p>
+						
+					</section>
+
+									
+					<section id="four">
+						<h2>Contact information</h2>
+
+						<section>
+                            <ul>
+                                <li>E-mail: mozheykosn@gmail.com</li>
+                                <li>Phone: +375(29)2973977</li>
+                                <li>Telegram: mozheyko_so</li>
+                                <li>LinkedIn: <a href="https://by.linkedin.com/in/snezhana-mozheyko-a72183131/ru">mozheyko.snezhana</a></li>
+                                                              </ul>
+
+							<h4>Skills</h4>
+							<ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Figma, Photoshop</li>
+                                <li>JavaScript Basics</li>
+                                <li>Git/GitHub Basics</li>
+                             
+                            </ul>
+							
+                            <h4>Code Example</h4>
+                            <p>Generator of ideas "what to do for the weekend" for my friends:</p>
+							<blockquote>
+                                
+                                let phrases = [
+                                <br> { text: 'собраться в Зеленом Попугае', image: 'https://pochemu24.ru/wp-content/uploads/2019/10/inx960x640-745771.jpg' },
+                                <br>{ text: 'поехать в Глубокое и кататься на танках ', image: 'https://img.ru-memorials.ru/memorials/by-vi-glub-park-t-72/by-vi-glub-park-t-72-01-1000.jpg' },
+                                <br>{ text: 'поехать в Поставы, чтобы увидеть самый крупный водопад в мире', image: 'https://rosegardening.org/wp-content/uploads/2018/11/2-41.jpg' },
+                                <br>{ text: 'чиллить на карьере в Новолукомле', image: 'https://tutby.gcdn.co/620x620s/n/02/8/122novoluk12.jpg' },
+                                <br>{ text: 'увидеть Мальдивское побережье в Малорите или где оно там', image: 'https://pbs.twimg.com/media/EBc6t8oXsAEKIb7.jpg:large' },
+                                <br>]
+                                <br>;
+                                <br>
+                                <br>function getRandomElement(arr) {
+                                    <br>let randIndex = Math.floor(Math.random() * arr.length);
+                                    <br>return arr[randIndex];
+                                    <br> }
+                                    <br>
+                                    <br>let button = document.querySelector('.button');
+                                    <br> let phrase = document.querySelector('.phrase');
+                                    <br> let advice = document.querySelector('.advice');
+                                    <br> let image = document.querySelector('.image');
+                                    <br>
+                                    <br> button.addEventListener('click', function () {
+                                        <br>let randomElement = getRandomElement(phrases);
+                                        <br> smoothly(phrase, 'textContent', randomElement.text);
+                                        <br> smoothly(image, 'src', randomElement.image); 
+                                        <br>
+                                        <br> if (randomElement.text.length > 30) {
+                                            <br> advice.style.fontSize = '33px';
+                                            <br> } else {
+                                                <br>advice.style.fontSize = '42px';
+                                                <br> }
+                                                <br>});
+                                                <br>for (let i = 0; i <= 2; i = i + 1) {
+                                                    <br>smoothly(phrase, 'textContent', phrases[i].text); 
+                                                    <br> smoothly(image, 'src', phrases[i].image); 
+                                                    <br> };
+                            </blockquote>
+
+                            <h4>Courses</h4>
+                            <p>«JavaScript/Front-end» - The Rolling Scopes</p>
+
+                            <h4>Education</h4>
+                            <p>Belarussian State University</p>
+
+                            <h4>Languages</h4>
+							<ul>
+                                <li>Russian - native speaker</li>
+                                <li>English - B1-B2</li>
+                                <li>Italian - C1</li>
+                                <li>Polish - A1</li>
+                                                          
+                            </ul>
+													
+				<footer id="footer">
+                    <p><a href="https://github.com/mozheykosn/">Me on GitHub</a></p>
+                    <p><a href="https://rs.school/js/"><img src="images/rs_school-og.png" alt="school"></a></p>
+                                        <p>2021</p>
+		
+			</footer>
+
+	</body>
+</html>
