@@ -4,7 +4,7 @@
 * E-mail: mozheykosn@gmail.com
 * Phone: +375(29)2973977
 * Telegram: mozheyko_so
-* LinkedIn: [mozheyko_so] (https://by.linkedin.com/in/snezhana-mozheyko-a72183131/ru)
+* LinkedIn: [https://by.linkedin.com/in/snezhana-mozheyko-a72183131/ru] (mozheyko.snezhana)
 ## Summary
 I have been working as a digital marketer for 4 years in marketing agency. Later I decided to study web development, firstly Java Script. I am very motivated to gain experience and become a good specialist.
 
@@ -20,8 +20,9 @@ I learn quickly, I can work in a team and always have many friends at work, I tr
 
 **Generator of ideas "what to do for the weekend" for my friends:**
 
-``` let phrases = [
-{ text: 'собраться у Шустова', image: 'https://pochemu24.ru/wp-content/uploads/2019/10/inx960x640-745771.jpg' },
+``` 
+let phrases = [
+{ text: 'собраться в Зеленом Попугае', image: 'https://pochemu24.ru/wp-content/uploads/2019/10/inx960x640-745771.jpg' },
 { text: 'поехать в Глубокое и кататься на танках ', image: 'https://img.ru-memorials.ru/memorials/by-vi-glub-park-t-72/by-vi-glub-park-t-72-01-1000.jpg' },
 { text: 'поехать в Поставы, чтобы увидеть самый крупный водопад в мире', image: 'https://rosegardening.org/wp-content/uploads/2018/11/2-41.jpg' },
 { text: 'чиллить на карьере в Новолукомле', image: 'https://tutby.gcdn.co/620x620s/n/02/8/122novoluk12.jpg' },
